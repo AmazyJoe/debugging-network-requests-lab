@@ -60,14 +60,16 @@ developing your own process.
 
 ## Your Notes Here
 
-- Add a new toy when the toy form is submitted
+- # Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged : in the def create, I have changed the Toys.create to Toy.create.
 
-- Update the number of likes for a toy
+- # Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged:  Whenever I refresh the page after a Like it works.changed the Update from capital U to small u of update.
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: I have added in this code to my routes.rb  
+  delete '/toys/:id', to: 'toys#destroy'
+
